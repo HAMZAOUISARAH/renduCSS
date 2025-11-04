@@ -1,0 +1,75 @@
+header {
+    height: 100vh;
+    background-image:
+        url("assets/image-header.png"),
+        url("/shared-assets/images/examples/star.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+    nav {
+        padding: 24px;
+
+        li {
+            /* font-family: ; */
+            font-weight: 400;
+            font-size: 20px;
+            display: inline-block;
+            padding-right: 15px;
+            font-family: poppins;
+        }
+
+        a {
+            color: white;
+        }
+
+        ul {
+            display: inline-block;
+            float: right;
+        }
+    }
+
+    section {
+
+        div {
+
+            margin-top: 14vh;
+            width: 500px;
+            margin: auto;
+
+            h1 {
+
+                font-size: 53px;
+                position: static;
+            }
+
+            .btn {
+
+                padding: 15px 32px;
+                border-radius: 8px;
+                text-decoration: none;
+                color: white;
+                background-color: black;
+
+            }
+
+            .secondaire {
+
+                background-color: white;
+                color: black;
+            
+
+
+            }
+        }
+
+    }
+
+
+
+
+}
+
+body {
+    margin: 0%;
+}
