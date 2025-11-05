@@ -1,3 +1,29 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+
+.btn {
+    line-height: 5;
+
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+
+}
+
+.secondaire {
+
+    background-color: white;
+    color: black;
+
+
+
+}
+
 header {
     height: 100vh;
     background-image:
@@ -16,7 +42,7 @@ header {
             font-size: 20px;
             display: inline-block;
             padding-right: 15px;
-            font-family: poppins;
+
         }
 
         a {
@@ -38,38 +64,87 @@ header {
             margin: auto;
 
             h1 {
-
-                font-size: 53px;
+                font-size: 40px;
                 position: static;
+                font-weight: 700;
             }
 
-            .btn {
-
-                padding: 15px 32px;
-                border-radius: 8px;
-                text-decoration: none;
-                color: white;
-                background-color: black;
-
+            span {
+                font-size: 100px;
             }
 
-            .secondaire {
 
-                background-color: white;
-                color: black;
-            
-
-
-            }
         }
 
     }
-
-
-
-
 }
 
 body {
     margin: 0%;
+}
+
+/* maintenant le main */
+
+
+
+.container {
+    width: 600px;
+    margin: 50px auto;
+}
+
+h1 {
+    line-height: 150%;
+}
+
+h2 {
+    margin: 0;
+}
+
+.esp {
+    line-height: 5%;
+}
+
+
+#date {
+
+    h2 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    li {
+        border-top: 1px rgba(255, 255, 255, 0.454) dashed;
+        list-style: none;
+        font-weight: 400;
+        font-size: 28px;
+        /* display: inline-block; */
+        padding-right: 15px;
+    }
+
+    div {
+        width: 50%;
+        margin: auto;
+    }
+}
+
+#contact {
+    color: white;
+    text-align: center;
+
+    h2 {
+        text-align: center;
+    }
+}
+
+#sponsor {
+
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(assets/banniere-logo.png);
+
+    div {
+        padding-top: 25%;
+        text-align: center;
+    }
 }

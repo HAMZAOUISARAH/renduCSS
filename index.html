@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rendunumero1</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -25,10 +30,10 @@
         <!-- hero section -->
         <section>
             <div>
-                <h1>URBAN NIGHT <br> <SPAN>RAP FEST</SPAN> </h1>
+                <h1>URBAN NIGHT <br> <span class="taille">RAP FEST</span> </h1>
                 <h2>04 Mai & 05 Mai <br> Lyon - parc de gerland <br> 7eme </h2>
 
-                <div>
+                <div class="esp">
                     <a href="" class="btn"> billeterie</a>
                     <a href="" class="btn  secondaire ">plus d'info</a>
                 </div>
@@ -39,19 +44,20 @@
     <main>
         <!-- section de presentation -->
         <section>
-            
-            <div> <!-- j'ai mis une div parce que joris me la conseiller -->
+
+            <div class="container"> <!-- j'ai mis une div parce que joris me la conseiller -->
                 <h2>Plongez au coeur du rythme urbain
-avec RAPture, le festival de rap qui célèbre
-la puissance des mots, des beats et des
-cultures qui les inspirent.</h2>
+                    avec RAPture, le festival de rap qui célèbre
+                    la puissance des mots, des beats et des
+                    cultures qui les inspirent.</h2>
                 <p>Du 4 au 5 mai, vibrez au son des artistes les plus bouillants de la scène rap, entre
-performances live, freestyles enflammés et rencontres inédites. 
-RAPture, c'’'est plus qu'’'un festival, c'’'est une immersion dans l'’'essence du hip-hop : des flows
-tranchants, des basses profondes et une énergie brute qui réunit toutes les générations. 
-Sur scène, les talents montants côtoient les légendes, pour un week-end où chaque rime fait
-écho aux histoires de la rue, des rêves et de la liberté d'’'expression. 
-Venez vivre</p>
+                    performances live, freestyles enflammés et rencontres inédites. 
+                    RAPture, c'’'est plus qu'’'un festival, c'’'est une immersion dans l'’'essence du hip-hop : des
+                    flows
+                    tranchants, des basses profondes et une énergie brute qui réunit toutes les générations. 
+                    Sur scène, les talents montants côtoient les légendes, pour un week-end où chaque rime fait
+                    écho aux histoires de la rue, des rêves et de la liberté d'’'expression. 
+                    Venez vivre</p>
             </div>
         </section>
         <section>
@@ -59,89 +65,100 @@ Venez vivre</p>
         </section>
 
         <!-- section liste des evenements/dates -->
-        <section>
-            <h2>LINE UP</h2>
-            <ul>
-                <li><strong>04 MAI - omah Lay
-</strong></li>
-                <li><strong>04 MAI - wizkid
-</strong></li>
-                <li><strong>04 MAI - lil baby
-</strong></li>
-                <li><strong>04 MAI - burna boy
-</strong></li>
-                <li><strong>05 MAI - kpoint
-</strong></li>
-                <li><strong>05 MAI - a.c
-</strong></li>
-                <li><strong>05 MAI - kekra
-</strong></li>
-                <li><strong>05 MAI - theodora</strong></li>
+        <section id="date">
+            <div>
+                <h2>LINE UP</h2>
+                <ul>
+                    <li><strong>04 MAI - omah Lay
+                        </strong></li>
+                    <li><strong>04 MAI - wizkid
+                        </strong></li>
+                    <li><strong>04 MAI - lil baby
+                        </strong></li>
+                    <li><strong>04 MAI - burna boy
+                        </strong></li>
+                    <li><strong>05 MAI - kpoint
+                        </strong></li>
+                    <li><strong>05 MAI - a.c
+                        </strong></li>
+                    <li><strong>05 MAI - kekra
+                        </strong></li>
+                    <li><strong>05 MAI - theodora</strong></li>
+                    <li></li>
 
-                <a href="">billeterie</a>
-            </ul>
+                    <a href="" class="btn secondaire">billeterie</a>
+                </ul>
+            </div>
         </section>
 
         <!-- section partenaires -->
-        <section>
-            <img src="assets/spotify.png" alt="">
-            <img src="assets/applemusic.png" alt="">
-            <img src="assets/uber.png" alt="">
-            <img src="assets/deezer.png" alt="">
-            <img src="assets/motorola.png" alt="">
 
+
+        <section id="sponsor">
+            <div>
+                <img src="assets/spotify.png" alt="">
+                <img src="assets/applemusic.png" alt="">
+                <img src="assets/uber.png" alt="">
+                <img src="assets/deezer.png" alt="">
+                <img src="assets/motorola.png" alt="">
+            </div>
         </section>
-        
+        <br>
         <!-- section formulaire -->
-        <section>
+        <section id="contact">
             <div>
                 <h2>CONTACTEZ NOUS</h2>
-                <p>Fill out the booking form below to ask any questions, or reach out to us directly at <a href="">help@raptureclouds.com</a>with any questions or concerns. </p>
+                <br>
+                <p>Fill out the booking form below to ask any questions, or reach out to us directly at <a
+                        href="">help@raptureclouds.com</a>with any questions or concerns. </p>
 
                 <!-- form -->
                 <form action="">
                     <div>
-                        <label for="">FULL NAME</label>
-                         <input type=""placeholder="ex. Mike Shinoda">
+                        <label for="">FULL NAME</label> <br>
+
+                        <input type="" placeholder="ex. Mike Shinoda">
                     </div>
                     <div>
-                        <label for="">MAIL</label>
-                        <input type=""placeholder="ex. sarah@hotmail.fr" >
+                        <label for="">MAIL</label> <br>
+
+                        <input type="" placeholder="ex. sarah@hotmail.fr">
                     </div>
                     <div>
-                        <label for="">PHONE</label>
+                        <label for="">PHONE</label> <br>
                         <input type="" placeholder="ex.0650114031">
                     </div>
-                    
+
                     <div>
-                        <label for=""> COMMENTAIRE <textarea name="" id="">Raconte ta vie fait toi plaisir"</textarea></label>
+                        <label for=""> COMMENTAIRE <textarea name=""
+                                id="">Raconte ta vie fait toi plaisir"</textarea></label>
                     </div>
-        
+
                     <button>CONTACT</button>
                 </form>
             </div>
         </section>
 
     </main> <!-- fin du main -->
-    
+
 
     <!-- footer -->
     <footer>
         <p>Email</p>
         <a href=""> help@raptureclouds.com </a>
-    
+
         <form action="">
 
-            <label for="">NEWSLETTER<input type=""placeholder="ton mail" >
-                
+            <label for="">NEWSLETTER<input type="" placeholder="ton mail">
+
             </label>
         </form>
-    
+
         <div>
-    
+
             <p>
-    
-    
+
+
             </p>
         </div>
     </footer>
